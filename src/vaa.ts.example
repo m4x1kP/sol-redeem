@@ -1,0 +1,76 @@
+export const RAW_VAA = export const VAA = {
+    version: 1,
+    guardianSetIndex: 4,
+    guardianSignatures: [
+        {
+            index: 0,
+            signature: '${SIGNATURE_0}',
+        },
+        {
+            index: 1,
+            signature: '${SIGNATURE_1}',
+        },
+        {
+            index: 3,
+            signature: '${SIGNATURE_3}',
+        },
+        {
+            index: 4,
+            signature: '${SIGNATURE_4}',
+        },
+        {
+            index: 6,
+            signature: '${SIGNATURE_6}',
+        },
+        {
+            index: 7,
+            signature: '${SIGNATURE_7}',
+        },
+        {
+            index: 8,
+            signature: '${SIGNATURE_8}',
+        },
+        {
+            index: 12,
+            signature: '${SIGNATURE_12}',
+        },
+        {
+            index: 13,
+            signature: '${SIGNATURE_13}',
+        },
+        {
+            index: 15,
+            signature: '${SIGNATURE_15}',
+        },
+        {
+            index: 16,
+            signature: '${SIGNATURE_16}',
+        },
+        {
+            index: 17,
+            signature: '${SIGNATURE_17}',
+        },
+        {
+            index: 18,
+            signature: '${SIGNATURE_18}',
+        },
+    ],
+    timestamp: 1715339627,
+    nonce: 61840,
+    emitterChain: 21,
+    emitterAddress: '${EMITTER_ADDRESS}',
+    sequence: 127446,
+    consistencyLevel: 0,
+    payload: '${PAYLOAD}',
+    hash: '${HASH}',
+    parsedPayload: {
+        module: 'TokenBridge',
+        type: 'Transfer',
+        amount: 199500073,
+        tokenAddress: '${TOKEN_ADDRESS}',
+        tokenChain: 1,
+        toAddress: '${TO_ADDRESS}',
+        chain: 1,
+        fee: 0,
+    },
+};

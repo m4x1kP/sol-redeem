@@ -1,0 +1,27 @@
+{
+  "name": "sol-redem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run": "npx tsx src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.12.12",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "tsx": "^4.10.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.91.8",
+    "@wormhole-foundation/sdk": "^0.6.8",
+    "@wormhole-foundation/sdk-solana": "^0.6.8",
+    "axios": "^1.6.8"
+  }
+}

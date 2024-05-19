@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["es2023"],
+    "module": "node16",
+    "target": "es2022",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts", "src/vaa.ts.example"]
+}
